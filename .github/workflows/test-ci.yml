@@ -1,0 +1,7 @@
+name: Testing App
+on:
+    push:
+      branches: [main]
+jobs:
+    test-jobs:
+      runs-on: ubuntu-latest
